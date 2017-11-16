@@ -5,12 +5,12 @@
              x:Class="BMI.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Entry x:Name="Weight"
+            <Entry x:Name="weight"
                 Text="70"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Entry x:Name="Height"
+            <Entry x:Name="height"
                 Text="160"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
