@@ -16,7 +16,7 @@ namespace BMI
 
         private void Button_Clicked(object sender,EventArgs e)
         {
-           /* Double w = Double.Parse(Weight.Text);
+            Double w = Double.Parse(Weight.Text);
             Double h = Double.Parse(Height.Text);
 
             if (h >= 3)
@@ -24,7 +24,7 @@ namespace BMI
                 h /= 100;
             }
             double bmi = w / h / h;
-            DisplayAlert("BMI", bmi.ToString, "OK");*/
+            DisplayAlert("BMI", bmi.ToString, "OK");
         }
 	}
 }
