@@ -25,7 +25,7 @@ namespace BMI
                 h /= 100;
             }
             double bmi = w / h / h;
-            DisplayAlert("BMI", bmi.ToString, "OK");
+            //DisplayAlert("BMI", bmi.ToString, "OK");
         }
 	}
 }
