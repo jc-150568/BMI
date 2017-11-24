@@ -5,19 +5,27 @@
              x:Class="BMI.MainPage">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="JK3A12　金"
+                    VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
             <Entry x:Name="height"
                 Text="170"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Label Text="現在の身長を入力してください"></Label>
+            <Label Text="現在の身長を入力してください"
+                    VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
 
             <Entry x:Name="weight"
                 Text="60"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Label Text="現在の体重を入力してください"></Label>
+            <Label Text="現在の体重を入力してください" 
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
 
             <Button Text="計算"
                     Clicked="Button_Clicked"
