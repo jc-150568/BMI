@@ -21,6 +21,7 @@
 
             <Entry x:Name="weight"
                     Text="50"
+                    WidthRequest="50"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" />
 
