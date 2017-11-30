@@ -27,7 +27,31 @@ namespace BMI
 
             double bmi2 = w / h / h;
 
-            DisplayAlert("BMI", bmi2.ToString(), "OK");
+            if (bmi2 < 18.5)
+            {
+                DisplayAlert("BMI", bmi2.ToString() + "　で低体重(痩せ型)です", "OK");
+            }
+            else if (bmi2 < 25)
+            {
+                DisplayAlert("BMI", bmi2.ToString() + "　で普通体重です", "OK");
+            }
+            else if (bmi2 < 30)
+            {
+                DisplayAlert("BMI", bmi2.ToString() + "　で肥満(1度)です", "OK");
+            }
+            else if (bmi2 < 35)
+            {
+                DisplayAlert("BMI", bmi2.ToString() + "　で肥満(2度)です", "OK");
+            }
+            else if (bmi2 < 40)
+            {
+                DisplayAlert("BMI", bmi2.ToString() + "　で肥満(3度)です", "OK");
+            }
+            else
+            {
+                DisplayAlert("BMI", bmi2.ToString() + "　で肥満(4度)です", "OK");
+            }
+
         }
 	}
 }
